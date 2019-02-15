@@ -2,8 +2,9 @@
 public class Main {
 
 	public static void main(String[] args){
-		// TODO Auto-generated method stub
-		LecteurFichierInterface lf = new LecteurFichier("C:/Users/licence/Desktop/test.txt");
+	
+
+		LecteurFichierInterface lf = new LecteurFichier("C:/Users/licence/Desktop/test.txt");
 		lf.read();
 		lf.display();
 		System.out.println();
